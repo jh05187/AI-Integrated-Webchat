@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f9ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat-box {
+  height: 400px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+#messages li {
+  margin: 8px 0;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  width: fit-content;
+  max-width: 80%;
+}
+
+#messages li.you {
+  background-color: #007bff;
+  color: white;
+  margin-left: auto;
+}
+
+#messages li.ai {
+  background-color: #eef7ee;
+  border-left: 4px solid #198754;
+  color: #1f3324;
+}
+
+#feedback {
+  font-style: italic;
+  color: #777;
+}
